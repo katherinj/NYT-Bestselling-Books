@@ -1,4 +1,4 @@
-package com.codepath.bestsellerlistapp
+package com.example.bestsellerlistapp
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.codepath.bestsellerlistapp
+package com.example.bestsellerlistapp
 
 /**
  * This interface is used by the [BestSellerBooksRecyclerViewAdapter] to ensure
