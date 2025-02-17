@@ -16,7 +16,7 @@ jobs:
           REPO_OWNER: ${{ github.repository_owner }}
           REPO_NAME: ${{ github.event.repository.name }}
           USERS: "codepathreview,kjayarajah,risvy" # Replace with actual GitHub usernames
-          PERMISSION: "push" # Options: pull, push, admin
+          PERMISSION: "pull, push, admin" # Options: pull, push, admin
 
         run: |
           IFS=',' read -ra USER_ARRAY <<< "$USERS"
